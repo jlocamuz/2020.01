@@ -19,5 +19,6 @@ class TestSort(unittest.TestCase):
         lOrdenada = Sort().BubbleSort([1, 4, 0, 2, 50, 49])
         self.assertEqual(lOrdenada, [0, 1, 2, 4, 49, 50])
 
+
 if __name__ == "__main__":
     unittest.main()
